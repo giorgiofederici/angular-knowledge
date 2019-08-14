@@ -1,0 +1,11 @@
+<div>
+  <h1>Content Projection</h1>
+  <app-auth-form (submitted)="createUser($event)">
+    <!-- This h3 tag will replace the auth form ng-content -->
+    <h3>Create Account</h3>
+  </app-auth-form>
+  <app-auth-form (submitted)="loginUser($event)">
+    <!-- This h3 tag will replace the auth form ng-content -->
+    <h3>Login</h3>
+  </app-auth-form>
+</div>

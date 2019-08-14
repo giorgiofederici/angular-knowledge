@@ -1,0 +1,18 @@
+<div>
+  <h1>Projecting Components</h1>
+  <app-auth-form (submitted)="createUser($event)">
+    <!-- This h3 tag will replace the auth form ng-content -->
+    <h3>Create Account</h3>
+    <button type="submit">
+      Join Us!
+    </button>
+  </app-auth-form>
+  <app-auth-form (submitted)="loginUser($event)">
+    <!-- This h3 tag will replace the auth form ng-content -->
+    <h3>Login</h3>
+    <app-auth-remember (checked)="rememberUser($event)"></app-auth-remember>
+    <button type="submit">
+      Login
+    </button>
+  </app-auth-form>
+</div>
