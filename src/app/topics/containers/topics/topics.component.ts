@@ -22,6 +22,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Projecting Components',
         path: '/projecting-components'
+      },
+      {
+        name: 'Content Child and After Content Init',
+        path: '/content-child-and-after-content-init'
       }
     ];
   }

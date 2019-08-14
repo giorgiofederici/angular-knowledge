@@ -25,6 +25,10 @@ const routes: Routes = [
     path: 'projecting-components',
     loadChildren:
       '../projecting-components/projecting-components.module#ProjectingComponentsModule'
+  },
+  {
+    path: 'content-child-and-after-content-init',
+    loadChildren: '../content-child/content-child.module#ContentChildModule'
   }
 ];
 
