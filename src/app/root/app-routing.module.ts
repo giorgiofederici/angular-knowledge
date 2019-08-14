@@ -29,6 +29,11 @@ const routes: Routes = [
   {
     path: 'content-child-and-after-content-init',
     loadChildren: '../content-child/content-child.module#ContentChildModule'
+  },
+  {
+    path: 'content-children-and-query-list',
+    loadChildren:
+      '../content-children-query-list/content-children-query-list.module#ContentChildrenQueryListModule'
   }
 ];
 
