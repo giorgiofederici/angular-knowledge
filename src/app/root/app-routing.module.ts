@@ -34,6 +34,10 @@ const routes: Routes = [
     path: 'content-children-and-query-list',
     loadChildren:
       '../content-children-query-list/content-children-query-list.module#ContentChildrenQueryListModule'
+  },
+  {
+    path: 'view-child',
+    loadChildren: '../view-child/view-child.module#ViewChildModule'
   }
 ];
 

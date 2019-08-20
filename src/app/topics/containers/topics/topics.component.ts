@@ -30,6 +30,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Content Children and Query List',
         path: '/content-children-and-query-list'
+      },
+      {
+        name: 'View Child and After View Init',
+        path: '/view-child'
       }
     ];
   }
