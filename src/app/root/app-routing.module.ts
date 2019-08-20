@@ -38,6 +38,10 @@ const routes: Routes = [
   {
     path: 'view-child',
     loadChildren: '../view-child/view-child.module#ViewChildModule'
+  },
+  {
+    path: 'view-children',
+    loadChildren: '../view-children/view-children.module#ViewChildrenModule'
   }
 ];
 

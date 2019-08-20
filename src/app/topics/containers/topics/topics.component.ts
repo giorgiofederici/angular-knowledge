@@ -34,6 +34,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'View Child and After View Init',
         path: '/view-child'
+      },
+      {
+        name: 'View Children',
+        path: '/view-children'
       }
     ];
   }

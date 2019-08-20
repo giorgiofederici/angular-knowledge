@@ -6,3 +6,4 @@
 - Content Child and After Content Init (@ContentChild AfterContentInit)
 - Content Children and Query List (@ContentChildren QueryList)
 - View Child and After View Init (@ViewChild AfterViewInit)
+- View Children and After View Init (@ViewChildren)
