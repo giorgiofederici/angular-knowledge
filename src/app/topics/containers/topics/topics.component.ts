@@ -38,6 +38,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'View Children',
         path: '/view-children'
+      },
+      {
+        name: 'Element Ref and Native Element',
+        path: '/element-ref-native-element'
       }
     ];
   }

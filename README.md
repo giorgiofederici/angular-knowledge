@@ -7,3 +7,4 @@
 - Content Children and Query List (@ContentChildren QueryList)
 - View Child and After View Init (@ViewChild AfterViewInit)
 - View Children and After View Init (@ViewChildren)
+- Element Ref and Native Element

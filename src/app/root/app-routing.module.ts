@@ -42,6 +42,11 @@ const routes: Routes = [
   {
     path: 'view-children',
     loadChildren: '../view-children/view-children.module#ViewChildrenModule'
+  },
+  {
+    path: 'element-ref-native-element',
+    loadChildren:
+      '../element-ref-native-element/element-ref-native-element.module#ElementRefNativeElementModule'
   }
 ];
 
