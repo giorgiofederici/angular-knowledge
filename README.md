@@ -8,3 +8,4 @@
 - View Child and After View Init (@ViewChild AfterViewInit)
 - View Children and After View Init (@ViewChildren)
 - Element Ref and Native Element
+- Platform Renderer

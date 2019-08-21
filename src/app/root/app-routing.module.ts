@@ -47,6 +47,11 @@ const routes: Routes = [
     path: 'element-ref-native-element',
     loadChildren:
       '../element-ref-native-element/element-ref-native-element.module#ElementRefNativeElementModule'
+  },
+  {
+    path: 'platform-renderer',
+    loadChildren:
+      '../platform-renderer/platform-renderer.module#PlatformRendererModule'
   }
 ];
 

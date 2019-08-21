@@ -42,6 +42,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Element Ref and Native Element',
         path: '/element-ref-native-element'
+      },
+      {
+        name: 'Platform Renderer',
+        path: '/platform-renderer'
       }
     ];
   }

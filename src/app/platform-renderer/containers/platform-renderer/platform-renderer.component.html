@@ -1,0 +1,10 @@
+<div>
+  <h1>Element Ref and Native Element</h1>
+  <app-auth-form (submitted)="loginUser($event)">
+    <h3>Login</h3>
+    <app-auth-remember (checked)="rememberUser($event)"></app-auth-remember>
+    <button type="submit">
+      Login
+    </button>
+  </app-auth-form>
+</div>
