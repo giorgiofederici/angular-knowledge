@@ -9,3 +9,4 @@
 - View Children and After View Init (@ViewChildren)
 - Element Ref and Native Element
 - Platform Renderer
+- Dynamic Components

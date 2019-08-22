@@ -52,6 +52,11 @@ const routes: Routes = [
     path: 'platform-renderer',
     loadChildren:
       '../platform-renderer/platform-renderer.module#PlatformRendererModule'
+  },
+  {
+    path: 'dynamic-components',
+    loadChildren:
+      '../dynamic-components/dynamic-components.module#DynamicComponentsModule'
   }
 ];
 

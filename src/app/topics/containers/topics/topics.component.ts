@@ -46,6 +46,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Platform Renderer',
         path: '/platform-renderer'
+      },
+      {
+        name: 'Dynamic Components',
+        path: '/dynamic-components'
       }
     ];
   }
