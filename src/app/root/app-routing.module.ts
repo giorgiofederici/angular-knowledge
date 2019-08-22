@@ -57,6 +57,11 @@ const routes: Routes = [
     path: 'dynamic-components',
     loadChildren:
       '../dynamic-components/dynamic-components.module#DynamicComponentsModule'
+  },
+  {
+    path: 'dynamic-input-data',
+    loadChildren:
+      '../dynamic-input-data/dynamic-input-data.module#DynamicInputDataModule'
   }
 ];
 

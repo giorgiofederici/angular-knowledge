@@ -50,6 +50,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Dynamic Components',
         path: '/dynamic-components'
+      },
+      {
+        name: 'Dynamic Input Data',
+        path: '/dynamic-input-data'
       }
     ];
   }
