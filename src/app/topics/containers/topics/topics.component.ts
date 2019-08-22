@@ -58,6 +58,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Dynamic Output Subscriptions',
         path: '/dynamic-output-subscriptions'
+      },
+      {
+        name: 'Destroying Dynamic Components',
+        path: '/destroying-dynamic-components'
       }
     ];
   }

@@ -12,3 +12,4 @@
 - Dynamic Components
 - Dynamic Input Data
 - Dynamic Output Subscriptions
+- Destroyng Dynamic Components

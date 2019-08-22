@@ -67,6 +67,11 @@ const routes: Routes = [
     path: 'dynamic-output-subscriptions',
     loadChildren:
       '../dynamic-output-subscriptions/dynamic-output-subscriptions.module#DynamicOutputSubscriptionsModule'
+  },
+  {
+    path: 'destroying-dynamic-components',
+    loadChildren:
+      '../destroying-dynamic-components/destroying-dynamic-components.module#DestroyingDynamicComponentsModule'
   }
 ];
 
