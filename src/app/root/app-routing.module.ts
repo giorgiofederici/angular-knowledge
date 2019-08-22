@@ -62,6 +62,11 @@ const routes: Routes = [
     path: 'dynamic-input-data',
     loadChildren:
       '../dynamic-input-data/dynamic-input-data.module#DynamicInputDataModule'
+  },
+  {
+    path: 'dynamic-output-subscriptions',
+    loadChildren:
+      '../dynamic-output-subscriptions/dynamic-output-subscriptions.module#DynamicOutputSubscriptionsModule'
   }
 ];
 

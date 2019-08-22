@@ -54,6 +54,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Dynamic Input Data',
         path: '/dynamic-input-data'
+      },
+      {
+        name: 'Dynamic Output Subscriptions',
+        path: '/dynamic-output-subscriptions'
       }
     ];
   }

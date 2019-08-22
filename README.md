@@ -11,3 +11,4 @@
 - Platform Renderer
 - Dynamic Components
 - Dynamic Input Data
+- Dynamic Output Subscriptions
