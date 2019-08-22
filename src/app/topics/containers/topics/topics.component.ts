@@ -62,6 +62,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Destroying Dynamic Components',
         path: '/destroying-dynamic-components'
+      },
+      {
+        name: 'Dynamic Components Reordering',
+        path: '/dynamic-components-reordering'
       }
     ];
   }

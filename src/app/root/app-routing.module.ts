@@ -72,6 +72,11 @@ const routes: Routes = [
     path: 'destroying-dynamic-components',
     loadChildren:
       '../destroying-dynamic-components/destroying-dynamic-components.module#DestroyingDynamicComponentsModule'
+  },
+  {
+    path: 'dynamic-components-reordering',
+    loadChildren:
+      '../dynamic-components-reordering/dynamic-components-reordering.module#DynamicComponentsReorderingModule'
   }
 ];
 
