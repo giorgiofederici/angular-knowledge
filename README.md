@@ -15,3 +15,4 @@
 - Destroyng Dynamic Components
 - Dynamic Components Reordering
 - Ng-Template and View Container Ref
+- Ng-Template Context

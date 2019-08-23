@@ -82,6 +82,11 @@ const routes: Routes = [
     path: 'template-viewcontainer-ref',
     loadChildren:
       '../template-viewcontainer-ref/template-viewcontainer-ref.module#TemplateViewContainerRefModule'
+  },
+  {
+    path: 'template-context',
+    loadChildren:
+      '../template-context/template-context.module#TemplateContextModule'
   }
 ];
 

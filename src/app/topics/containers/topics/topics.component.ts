@@ -70,6 +70,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Template Viewcontainer Ref',
         path: '/template-viewcontainer-ref'
+      },
+      {
+        name: 'Template Context',
+        path: '/template-context'
       }
     ];
   }
