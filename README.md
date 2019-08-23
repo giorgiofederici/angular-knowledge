@@ -18,3 +18,4 @@
 - Ng-Template Context
 - Ng-Template Outlet
 - Ng-Template Outlet Context
+- View Encapsulation and Shadow DOM

@@ -80,8 +80,8 @@ export class TopicsComponent implements OnInit {
         path: '/ng-template-outlet'
       },
       {
-        name: 'Ng Template Outlet Context',
-        path: '/ng-template-outlet-context'
+        name: 'View Encapsulation and Shadow DOM',
+        path: '/view-encapsulation-shadow-dom'
       }
     ];
   }

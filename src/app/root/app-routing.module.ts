@@ -97,6 +97,11 @@ const routes: Routes = [
     path: 'ng-template-outlet-context',
     loadChildren:
       '../ng-template-outlet-context/ng-template-outlet-context.module#NgTemplateOutletContextModule'
+  },
+  {
+    path: 'view-encapsulation-shadow-dom',
+    loadChildren:
+      '../view-encapsulation-shadow-dom/view-encapsulation-shadow-dom.module#ViewEncapsulationShadowDOMModule'
   }
 ];
 
