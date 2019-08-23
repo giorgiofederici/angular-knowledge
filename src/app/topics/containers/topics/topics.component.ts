@@ -86,6 +86,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Change Detection Strategy',
         path: '/change-detection-strategy'
+      },
+      {
+        name: 'Form Control and Form Group',
+        path: '/form-control-form-group'
       }
     ];
   }

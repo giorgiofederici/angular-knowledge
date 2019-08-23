@@ -107,6 +107,11 @@ const routes: Routes = [
     path: 'change-detection-strategy',
     loadChildren:
       '../change-detection-strategy/change-detection-strategy.module#ChangeDetectionStrategyModule'
+  },
+  {
+    path: 'form-control-form-group',
+    loadChildren:
+      '../form-control-form-group/form-control-form-group.module#FormControlFormGroupModule'
   }
 ];
 

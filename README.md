@@ -1,6 +1,7 @@
 # Angular Knowledge
 
 - Advanced Components
+
   - Content Projection (ng-content)
   - Injection Slots (ng-content select)
   - Projecting Components (ng-content select)
@@ -21,3 +22,6 @@
   - Ng-Template Outlet Context
   - View Encapsulation and Shadow DOM
   - Change Detection Strategy
+
+- Reactive Forms
+  - Form Control and Form Group

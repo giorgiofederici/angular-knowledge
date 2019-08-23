@@ -1,0 +1,26 @@
+<div class="stock-inventory">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="store-container" formGroupName="store">
+      <mat-form-field>
+        <input
+          matInput
+          type="text"
+          placeholder="Branch ID"
+          formControlName="branch"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          type="text"
+          placeholder="Manager code"
+          formControlName="code"
+        />
+      </mat-form-field>
+    </div>
+    <div class="stock-inventory__buttons">
+      <button type="submit" [disabled]="form.invalid">Order Stock</button>
+    </div>
+    <pre>{{ form.value | json }}</pre>
+  </form>
+</div>
