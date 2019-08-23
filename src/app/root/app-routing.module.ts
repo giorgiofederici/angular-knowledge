@@ -102,6 +102,11 @@ const routes: Routes = [
     path: 'view-encapsulation-shadow-dom',
     loadChildren:
       '../view-encapsulation-shadow-dom/view-encapsulation-shadow-dom.module#ViewEncapsulationShadowDOMModule'
+  },
+  {
+    path: 'change-detection-strategy',
+    loadChildren:
+      '../change-detection-strategy/change-detection-strategy.module#ChangeDetectionStrategyModule'
   }
 ];
 

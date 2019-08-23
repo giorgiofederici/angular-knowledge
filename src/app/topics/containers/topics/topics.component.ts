@@ -82,6 +82,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'View Encapsulation and Shadow DOM',
         path: '/view-encapsulation-shadow-dom'
+      },
+      {
+        name: 'Change Detection Strategy',
+        path: '/change-detection-strategy'
       }
     ];
   }

@@ -1,0 +1,10 @@
+<div>
+  <h1>Change Detection Strategy</h1>
+  <button (click)="addProp()">Add property</button>
+  <button (click)="changeUser()">Change user object</button>
+  <button (click)="changeName()">Change name property</button>
+  <div class="users">
+    <app-example-one [user]="user"></app-example-one>
+    <app-example-two [user]="user"></app-example-two>
+  </div>
+</div>
