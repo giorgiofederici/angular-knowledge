@@ -1,1 +1,6 @@
-<app-topic *ngFor="let topic of topics" [topic]="topic"></app-topic>
+<mat-list>
+  <ng-container *ngFor="let topic of topics">
+    <mat-list-item><app-topic [topic]="topic"></app-topic></mat-list-item>
+    <mat-divider></mat-divider>
+  </ng-container>
+</mat-list>
