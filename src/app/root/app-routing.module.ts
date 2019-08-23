@@ -92,6 +92,11 @@ const routes: Routes = [
     path: 'ng-template-outlet',
     loadChildren:
       '../ng-template-outlet/ng-template-outlet.module#NgTemplateOutletModule'
+  },
+  {
+    path: 'ng-template-outlet-context',
+    loadChildren:
+      '../ng-template-outlet-context/ng-template-outlet-context.module#NgTemplateOutletContextModule'
   }
 ];
 
