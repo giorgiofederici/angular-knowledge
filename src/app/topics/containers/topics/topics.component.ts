@@ -74,6 +74,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Template Context',
         path: '/template-context'
+      },
+      {
+        name: 'Ng Template Outlet',
+        path: '/ng-template-outlet'
       }
     ];
   }
