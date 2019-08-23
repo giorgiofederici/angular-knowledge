@@ -77,6 +77,11 @@ const routes: Routes = [
     path: 'dynamic-components-reordering',
     loadChildren:
       '../dynamic-components-reordering/dynamic-components-reordering.module#DynamicComponentsReorderingModule'
+  },
+  {
+    path: 'template-viewcontainer-ref',
+    loadChildren:
+      '../template-viewcontainer-ref/template-viewcontainer-ref.module#TemplateViewContainerRefModule'
   }
 ];
 

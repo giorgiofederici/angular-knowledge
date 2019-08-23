@@ -66,6 +66,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Dynamic Components Reordering',
         path: '/dynamic-components-reordering'
+      },
+      {
+        name: 'Template Viewcontainer Ref',
+        path: '/template-viewcontainer-ref'
       }
     ];
   }
