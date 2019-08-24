@@ -139,6 +139,11 @@ const routes: Routes = [
   {
     path: 'form-builder',
     loadChildren: '../form-builder/form-builder.module#FormBuilderModule'
+  },
+  {
+    path: 'joining-observables',
+    loadChildren:
+      '../joining-observables/joining-observables.module#JoiningObservablesModule'
   }
 ];
 

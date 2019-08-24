@@ -118,6 +118,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Form Builder',
         path: '/form-builder'
+      },
+      {
+        name: 'Joining Observables',
+        path: '/joining-observables'
       }
     ];
   }
