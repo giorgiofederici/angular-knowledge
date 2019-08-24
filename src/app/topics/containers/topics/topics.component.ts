@@ -110,6 +110,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Form Array Add',
         path: '/form-array-add'
+      },
+      {
+        name: 'Form Array Remove',
+        path: '/form-array-remove'
       }
     ];
   }

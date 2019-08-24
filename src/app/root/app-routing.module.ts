@@ -130,6 +130,11 @@ const routes: Routes = [
   {
     path: 'form-array-add',
     loadChildren: '../form-array-add/form-array-add.module#FormArrayAddModule'
+  },
+  {
+    path: 'form-array-remove',
+    loadChildren:
+      '../form-array-remove/form-array-remove.module#FormArrayRemoveModule'
   }
 ];
 

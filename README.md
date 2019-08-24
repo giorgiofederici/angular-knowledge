@@ -28,3 +28,5 @@
   - Componentizing Form Groups
   - Form Control Select
   - Form Array
+  - Form Array Add
+  - Form Array Remove
