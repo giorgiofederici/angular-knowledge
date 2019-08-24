@@ -114,6 +114,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Form Array Remove',
         path: '/form-array-remove'
+      },
+      {
+        name: 'Form Builder',
+        path: '/form-builder'
       }
     ];
   }
