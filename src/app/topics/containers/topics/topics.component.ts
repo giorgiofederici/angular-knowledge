@@ -106,6 +106,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Form Array',
         path: '/form-array'
+      },
+      {
+        name: 'Form Array Add',
+        path: '/form-array-add'
       }
     ];
   }

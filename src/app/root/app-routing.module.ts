@@ -126,6 +126,10 @@ const routes: Routes = [
   {
     path: 'form-array',
     loadChildren: '../form-array/form-array.module#FormArrayModule'
+  },
+  {
+    path: 'form-array-add',
+    loadChildren: '../form-array-add/form-array-add.module#FormArrayAddModule'
   }
 ];
 
