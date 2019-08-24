@@ -112,6 +112,11 @@ const routes: Routes = [
     path: 'form-control-form-group',
     loadChildren:
       '../form-control-form-group/form-control-form-group.module#FormControlFormGroupModule'
+  },
+  {
+    path: 'componentizing-formgroup',
+    loadChildren:
+      '../componentizing-formgroup/componentizing-formgroup.module#ComponentizingFormGroupModule'
   }
 ];
 

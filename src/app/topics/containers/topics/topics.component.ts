@@ -7,10 +7,11 @@ import { Topic } from '../../../shared/models/topic.module';
   styleUrls: ['./topics.component.scss']
 })
 export class TopicsComponent implements OnInit {
-  topics: Topic[];
+  advancedComponentTopics: Topic[];
+  reactiveFormTopics: Topic[];
 
   ngOnInit() {
-    this.topics = [
+    this.advancedComponentTopics = [
       {
         name: 'Content Projection',
         path: '/content-projection'
@@ -86,10 +87,17 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Change Detection Strategy',
         path: '/change-detection-strategy'
-      },
+      }
+    ];
+
+    this.reactiveFormTopics = [
       {
         name: 'Form Control and Form Group',
         path: '/form-control-form-group'
+      },
+      {
+        name: 'Componentizing Form Group',
+        path: '/componentizing-formgroup'
       }
     ];
   }

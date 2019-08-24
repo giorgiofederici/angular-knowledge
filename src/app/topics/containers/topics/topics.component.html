@@ -1,5 +1,12 @@
 <mat-list>
-  <ng-container *ngFor="let topic of topics">
+  <h1>Advanced Components</h1>
+  <ng-container *ngFor="let topic of advancedComponentTopics">
+    <mat-list-item><app-topic [topic]="topic"></app-topic></mat-list-item>
+    <mat-divider class="topics-divider"></mat-divider>
+  </ng-container>
+
+  <h1>Reactive Forms</h1>
+  <ng-container *ngFor="let topic of reactiveFormTopics">
     <mat-list-item><app-topic [topic]="topic"></app-topic></mat-list-item>
     <mat-divider class="topics-divider"></mat-divider>
   </ng-container>
