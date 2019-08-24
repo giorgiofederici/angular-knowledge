@@ -122,6 +122,10 @@ const routes: Routes = [
     path: 'form-control-select',
     loadChildren:
       '../form-control-select/form-control-select.module#FormControlSelectModule'
+  },
+  {
+    path: 'form-array',
+    loadChildren: '../form-array/form-array.module#FormArrayModule'
   }
 ];
 

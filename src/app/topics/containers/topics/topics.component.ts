@@ -102,6 +102,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Form Control Select',
         path: '/form-control-select'
+      },
+      {
+        name: 'Form Array',
+        path: '/form-array'
       }
     ];
   }
