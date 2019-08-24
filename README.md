@@ -26,3 +26,4 @@
 - Reactive Forms
   - Form Control and Form Group
   - Componentizing Form Groups
+  - Form Control Select

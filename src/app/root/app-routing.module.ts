@@ -117,6 +117,11 @@ const routes: Routes = [
     path: 'componentizing-formgroup',
     loadChildren:
       '../componentizing-formgroup/componentizing-formgroup.module#ComponentizingFormGroupModule'
+  },
+  {
+    path: 'form-control-select',
+    loadChildren:
+      '../form-control-select/form-control-select.module#FormControlSelectModule'
   }
 ];
 

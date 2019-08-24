@@ -98,6 +98,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Componentizing Form Group',
         path: '/componentizing-formgroup'
+      },
+      {
+        name: 'Form Control Select',
+        path: '/form-control-select'
       }
     ];
   }
