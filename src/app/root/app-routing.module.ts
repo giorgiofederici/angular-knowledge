@@ -154,6 +154,11 @@ const routes: Routes = [
     path: 'reset-update-form-controls',
     loadChildren:
       '../reset-update-form-controls/reset-update-form-controls.module#ResetUpdateFormControlsModule'
+  },
+  {
+    path: 'custom-form-control-base',
+    loadChildren:
+      '../custom-form-control-base/custom-form-control-base.module#CustomFormControlBaseModule'
   }
 ];
 

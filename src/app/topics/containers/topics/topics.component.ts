@@ -130,6 +130,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Reset Update Form Controls',
         path: '/reset-update-form-controls'
+      },
+      {
+        name: 'Custom Form Control Base',
+        path: '/custom-form-control-base'
       }
     ];
   }
