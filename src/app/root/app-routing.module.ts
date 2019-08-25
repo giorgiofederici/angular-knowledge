@@ -144,6 +144,11 @@ const routes: Routes = [
     path: 'joining-observables',
     loadChildren:
       '../joining-observables/joining-observables.module#JoiningObservablesModule'
+  },
+  {
+    path: 'value-changes-observables',
+    loadChildren:
+      '../value-changes-observables/value-changes-observables.module#ValueChangesObservablesModule'
   }
 ];
 

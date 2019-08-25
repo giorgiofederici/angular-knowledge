@@ -122,6 +122,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Joining Observables',
         path: '/joining-observables'
+      },
+      {
+        name: 'Value Change Observables',
+        path: '/value-changes-observables'
       }
     ];
   }
