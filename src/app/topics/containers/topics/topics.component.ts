@@ -126,6 +126,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Value Change Observables',
         path: '/value-changes-observables'
+      },
+      {
+        name: 'Reset Update Form Controls',
+        path: '/reset-update-form-controls'
       }
     ];
   }

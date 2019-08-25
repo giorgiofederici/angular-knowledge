@@ -149,6 +149,11 @@ const routes: Routes = [
     path: 'value-changes-observables',
     loadChildren:
       '../value-changes-observables/value-changes-observables.module#ValueChangesObservablesModule'
+  },
+  {
+    path: 'reset-update-form-controls',
+    loadChildren:
+      '../reset-update-form-controls/reset-update-form-controls.module#ResetUpdateFormControlsModule'
   }
 ];
 
