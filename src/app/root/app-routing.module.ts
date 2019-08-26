@@ -184,6 +184,11 @@ const routes: Routes = [
     path: 'custom-formgroup-validator',
     loadChildren:
       '../custom-formgroup-validator/custom-formgroup-validator.module#CustomFormGroupValidatorModule'
+  },
+  {
+    path: 'async-custom-validators',
+    loadChildren:
+      '../async-custom-validators/async-custom-validators.module#AsyncCustomValidatorsModule'
   }
 ];
 

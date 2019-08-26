@@ -154,6 +154,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Custom Form Group Validator',
         path: '/custom-formgroup-validator'
+      },
+      {
+        name: 'Async Custom Validators',
+        path: '/async-custom-validators'
       }
     ];
   }
