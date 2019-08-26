@@ -134,6 +134,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Custom Form Control Base',
         path: '/custom-form-control-base'
+      },
+      {
+        name: 'Control Value Accessor',
+        path: '/control-value-accessor'
       }
     ];
   }

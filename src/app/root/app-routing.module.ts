@@ -159,6 +159,11 @@ const routes: Routes = [
     path: 'custom-form-control-base',
     loadChildren:
       '../custom-form-control-base/custom-form-control-base.module#CustomFormControlBaseModule'
+  },
+  {
+    path: 'control-value-accessor',
+    loadChildren:
+      '../control-value-accessor/control-value-accessor.module#ControlValueAccessorModule'
   }
 ];
 
