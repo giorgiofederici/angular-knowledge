@@ -146,6 +146,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Validators Object',
         path: '/validators-object'
+      },
+      {
+        name: 'Custom Control Validator',
+        path: '/custom-control-validator'
       }
     ];
   }

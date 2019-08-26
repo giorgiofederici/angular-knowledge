@@ -38,3 +38,4 @@
   - Control Value Accessor
   - Keyboard Events
   - Validators Object
+  - Custom Control Validator

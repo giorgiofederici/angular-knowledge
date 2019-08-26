@@ -174,6 +174,11 @@ const routes: Routes = [
     path: 'validators-object',
     loadChildren:
       '../validators-object/validators-object.module#ValidatorsObjectModule'
+  },
+  {
+    path: 'custom-control-validator',
+    loadChildren:
+      '../custom-control-validator/custom-control-validator.module#CustomControlValidatorModule'
   }
 ];
 
