@@ -142,6 +142,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Keyboard Events',
         path: '/keyboard-events'
+      },
+      {
+        name: 'Validators Object',
+        path: '/validators-object'
       }
     ];
   }

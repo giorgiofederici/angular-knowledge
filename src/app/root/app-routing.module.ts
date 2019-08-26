@@ -169,6 +169,11 @@ const routes: Routes = [
     path: 'keyboard-events',
     loadChildren:
       '../keyboard-events/keyboard-events.module#KeyboardEventsModule'
+  },
+  {
+    path: 'validators-object',
+    loadChildren:
+      '../validators-object/validators-object.module#ValidatorsObjectModule'
   }
 ];
 

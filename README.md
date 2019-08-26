@@ -37,3 +37,4 @@
   - Custom Form Control Base
   - Control Value Accessor
   - Keyboard Events
+  - Validators Object
