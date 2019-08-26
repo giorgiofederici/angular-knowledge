@@ -179,6 +179,11 @@ const routes: Routes = [
     path: 'custom-control-validator',
     loadChildren:
       '../custom-control-validator/custom-control-validator.module#CustomControlValidatorModule'
+  },
+  {
+    path: 'custom-formgroup-validator',
+    loadChildren:
+      '../custom-formgroup-validator/custom-formgroup-validator.module#CustomFormGroupValidatorModule'
   }
 ];
 

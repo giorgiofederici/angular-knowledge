@@ -39,3 +39,4 @@
   - Keyboard Events
   - Validators Object
   - Custom Control Validator
+  - Custom Form Group Validator

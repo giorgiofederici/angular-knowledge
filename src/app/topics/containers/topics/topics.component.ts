@@ -150,6 +150,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Custom Control Validator',
         path: '/custom-control-validator'
+      },
+      {
+        name: 'Custom Form Group Validator',
+        path: '/custom-formgroup-validator'
       }
     ];
   }

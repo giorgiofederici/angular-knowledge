@@ -1,0 +1,16 @@
+<div [formGroup]="parent">
+  <div class="store-container" formGroupName="store">
+    <input type="text" placeholder="Branch ID" formControlName="branch" />
+    <div class="error" *ngIf="required('branch')">
+      Branch ID is required
+    </div>
+    <div class="error" *ngIf="invalid">
+      Invalid branch code: 1 letter, 3 numbers
+    </div>
+
+    <input type="text" placeholder="Manager code" formControlName="code" />
+    <div class="error" *ngIf="required('code')">
+      Manager ID is required
+    </div>
+  </div>
+</div>
