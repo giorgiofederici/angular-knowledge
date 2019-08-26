@@ -138,6 +138,10 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Control Value Accessor',
         path: '/control-value-accessor'
+      },
+      {
+        name: 'Keyboard Events',
+        path: '/keyboard-events'
       }
     ];
   }

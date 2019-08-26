@@ -164,6 +164,11 @@ const routes: Routes = [
     path: 'control-value-accessor',
     loadChildren:
       '../control-value-accessor/control-value-accessor.module#ControlValueAccessorModule'
+  },
+  {
+    path: 'keyboard-events',
+    loadChildren:
+      '../keyboard-events/keyboard-events.module#KeyboardEventsModule'
   }
 ];
 
