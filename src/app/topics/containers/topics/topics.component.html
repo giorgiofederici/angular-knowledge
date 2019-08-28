@@ -5,8 +5,44 @@
     <mat-divider class="topics-divider"></mat-divider>
   </ng-container>
 
+  <h1>Directives</h1>
+  <ng-container *ngFor="let topic of directivesTopics">
+    <mat-list-item><app-topic [topic]="topic"></app-topic></mat-list-item>
+    <mat-divider class="topics-divider"></mat-divider>
+  </ng-container>
+
+  <h1>Custom Pipes</h1>
+  <ng-container *ngFor="let topic of customPipesTopics">
+    <mat-list-item><app-topic [topic]="topic"></app-topic></mat-list-item>
+    <mat-divider class="topics-divider"></mat-divider>
+  </ng-container>
+
   <h1>Reactive Forms</h1>
   <ng-container *ngFor="let topic of reactiveFormTopics">
+    <mat-list-item><app-topic [topic]="topic"></app-topic></mat-list-item>
+    <mat-divider class="topics-divider"></mat-divider>
+  </ng-container>
+
+  <h1>Routing</h1>
+  <ng-container *ngFor="let topic of routingTopics">
+    <mat-list-item><app-topic [topic]="topic"></app-topic></mat-list-item>
+    <mat-divider class="topics-divider"></mat-divider>
+  </ng-container>
+
+  <h1>Unit Testing</h1>
+  <ng-container *ngFor="let topic of unitTestingTopics">
+    <mat-list-item><app-topic [topic]="topic"></app-topic></mat-list-item>
+    <mat-divider class="topics-divider"></mat-divider>
+  </ng-container>
+
+  <h1>Dependency Injection and Zones</h1>
+  <ng-container *ngFor="let topic of dependencyInjectionAndZonesTopics">
+    <mat-list-item><app-topic [topic]="topic"></app-topic></mat-list-item>
+    <mat-divider class="topics-divider"></mat-divider>
+  </ng-container>
+
+  <h1>State Management with RxJS</h1>
+  <ng-container *ngFor="let topic of stateManagementTopics">
     <mat-list-item><app-topic [topic]="topic"></app-topic></mat-list-item>
     <mat-divider class="topics-divider"></mat-divider>
   </ng-container>

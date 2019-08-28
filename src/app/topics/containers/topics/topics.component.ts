@@ -9,6 +9,12 @@ import { Topic } from '../../../shared/models/topic.module';
 export class TopicsComponent implements OnInit {
   advancedComponentTopics: Topic[];
   reactiveFormTopics: Topic[];
+  routingTopics: Topic[];
+  stateManagementTopics: Topic[];
+  directivesTopics: Topic[];
+  customPipesTopics: Topic[];
+  dependencyInjectionAndZonesTopics: Topic[];
+  unitTestingTopics: Topic[];
 
   ngOnInit() {
     this.advancedComponentTopics = [
@@ -158,6 +164,212 @@ export class TopicsComponent implements OnInit {
       {
         name: 'Async Custom Validators',
         path: '/async-custom-validators'
+      }
+    ];
+
+    this.routingTopics = [
+      {
+        name: 'Route Tracing',
+        path: '/route-tracing'
+      },
+      {
+        name: 'Router Events Subscription',
+        path: '/'
+      },
+      {
+        name: 'Router Outlet Events (Activate and Deactivate)',
+        path: '/'
+      },
+      {
+        name: 'Resolves',
+        path: '/'
+      },
+      {
+        name: 'Auxiliary Named Router Outlets',
+        path: '/'
+      },
+      {
+        name: 'Navigating to Auxiliary Named Outlets',
+        path: '/'
+      },
+      {
+        name: 'Auxiliary Navigation API',
+        path: '/'
+      },
+      {
+        name: 'Destroying Auxiliary Outlets',
+        path: '/'
+      },
+      {
+        name: 'Resolving Data for Auxiliary Outlets',
+        path: '/'
+      },
+      {
+        name: 'Lazy-loading Modules',
+        path: '/'
+      },
+      {
+        name: 'Preloading Lazy-loaded Modules',
+        path: '/'
+      },
+      {
+        name: 'Custom Preloading Strategies',
+        path: '/'
+      },
+      {
+        name: 'Protecting Lazy-loaded Modules with canLoad',
+        path: '/'
+      },
+      {
+        name: 'Guards with canActivate',
+        path: '/'
+      },
+      {
+        name: 'Guards with canActivateChild',
+        path: '/'
+      },
+      {
+        name: 'Guards with canDeactivate',
+        path: '/'
+      }
+    ];
+
+    this.stateManagementTopics = [
+      {
+        name: 'Creating an Observable Store with RxJs',
+        path: '/'
+      },
+      {
+        name: 'Container components setup',
+        path: '/'
+      },
+      {
+        name: 'Populating the Store and Component Subscription',
+        path: '/'
+      },
+      {
+        name: 'Composing new Observable Streams from our Store',
+        path: '/'
+      },
+      {
+        name: 'Integrating a stateless component',
+        path: '/'
+      },
+      {
+        name: 'Component Outputs back to Service',
+        path: '/'
+      },
+      {
+        name: 'Updating our Store in a Service',
+        path: '/'
+      }
+    ];
+
+    this.directivesTopics = [
+      {
+        name: 'Creating a custom attribute Directive',
+        path: '/'
+      },
+      {
+        name: '@HostListener and host Object',
+        path: '/'
+      },
+      {
+        name: 'Understanding @HostBinding',
+        path: '/'
+      },
+      {
+        name: 'Using the exportAs property with template refs',
+        path: '/'
+      },
+      {
+        name: 'Creating a custom structural Directive',
+        path: '/'
+      }
+    ];
+
+    this.customPipesTopics = [
+      {
+        name: 'Creating a Custom Pipe',
+        path: '/'
+      },
+      {
+        name: 'Pipes as Providers',
+        path: '/'
+      }
+    ];
+
+    this.dependencyInjectionAndZonesTopics = [
+      {
+        name: 'Providers and useValue',
+        path: '/'
+      },
+      {
+        name: 'Using InjectionToken',
+        path: '/'
+      },
+      {
+        name: 'Providers and useClass',
+        path: '/'
+      },
+      {
+        name: 'Providers and useFactory',
+        path: '/'
+      },
+      {
+        name: 'Providers and useExisting',
+        path: '/'
+      },
+      {
+        name: 'Configurable NgModules',
+        path: '/'
+      },
+      {
+        name: 'Zones and NgZone',
+        path: '/'
+      }
+    ];
+
+    this.unitTestingTopics = [
+      {
+        name: 'Karma Setup and Walkthrough',
+        path: '/'
+      },
+      {
+        name: 'Testing Isolate Pipes',
+        path: '/'
+      },
+      {
+        name: 'Shallow Testing Pipes',
+        path: '/'
+      },
+      {
+        name: 'Testing Services with Dependencies',
+        path: '/'
+      },
+      {
+        name: 'Testing Component Methods',
+        path: '/'
+      },
+      {
+        name: 'Testing @Input and @Output Bindings',
+        path: '/'
+      },
+      {
+        name: 'Testing Component Templates',
+        path: '/'
+      },
+      {
+        name: 'Testing Container Components with Async Providers',
+        path: '/'
+      },
+      {
+        name: 'Using NO_ERRORS_SCHEMA',
+        path: '/'
+      },
+      {
+        name: 'Testing an Attribute Directive',
+        path: '/'
       }
     ];
   }
